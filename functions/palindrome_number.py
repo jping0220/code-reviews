@@ -5,8 +5,8 @@ def palindrome_number(x):
     dig = x%10
     reverse = reverse*10 + dig
     x = x//10
-
     if temp == reverse:
       return True
     else:
       return False
+    # added commentq
